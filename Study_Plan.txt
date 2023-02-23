@@ -1,0 +1,515 @@
+NMT-L1
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BIOS 101,Biostatistics,2,0,0,-,-
+COMM 101,Communication Skills,1,0,0,-,-
+ISLM 105,Medical Jurisprudence,2,0,0,-,-
+COMP 101,Computer for Health Sciences,1,1,0,-,-
+ARAB 101,Arabic Language,2,0,0,-,-
+ENGL 101,English Language (1),4,4,0,-,-
+
+NMT-L2
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BIOL 101,Biology,2,1,0,-,-
+ETH 101,Ethics in Health Care,1,0,0,-,-
+PHYS 101,General Physics,2,1,0,-,-
+CHEM 101,Introduction to Chemistry,2,1,0,-,-
+ENGL 102,English Language (2),2,2,0,-,-
+ENGL 105,Medical Terminology,3,0,0,-,-
+
+NMT-L3
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+ISLM 106,Family in Islam,2,0,0,-,-
+BMS 231,"Anatomy, Embryology & Histology",2,2,0,BIOL 101 ENGL 105,-
+BMS 232,Physiology,2,1,0,BIOL 101 ENGL 105,-
+BMS 233,Biochemistry,2,1,0,CHEM 101,-
+BMS 234,Medical Ethics,2,0,0,ETH 101,-
+NMT 231,Introduction to Nuclear Medicine Technology,3,0,0,BIOL 101 ENGL 102 PHYS 101,-
+NMT 232,Radiation Biology & Safety,2,0,0,ENGL 102,-
+
+NMT-L4
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+NMT 241,Radiopharmacy,3,0,0,NMT 232,-
+NMT 242,Nuclear Medicine Instrumentation,3,0,0,NMT 231,-
+NMT 243,Nuclear Physics,3,0,0,NMT 232 PHYS 101,-
+NMT 244,Introduction to Nuclear Medicine Laboratory,1,2,0,NMT 231,-
+NMT 245,Computer Methods in Biomedical Technology,3,0,0,Comp 101 NMT 231,-
+NMT 246,Nuclear Medicine Administration,2,0,0,NMT 231,-
+
+NMT-L5
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+ISLM 107,Economic System in Islam,2,0,0,-,-
+ARAB 103,Writing in Arabic Language,2,0,0,ARAB 101,-
+NMT 351,Nuclear Medicine Methodology(1),1,2,0,NMT 242,-
+NMT 352,Overview - Clinical Nuclear Medicine,2,2,0,NMT 241 NMT 244,-
+NMT 353,Clinical Nuclear Medicine(1),1,1,1,NMT 244,-
+NMT 354,Cardiovascular Monitoring,2,0,1,BMS 232 NMT 245,-
+
+NMT-L6
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+ISLM 108,Human Rights,2,0,0,-,-
+BMS 361,Principles of Learning & Health Education,2,0,0,NMT 246 NMT 352,-
+NMT 361,Nuclear Medicine Methodology (2),1,2,0,NMT 351 NMT 362,-
+NMT 362,Nuclear Medicine Patient Care,2,1,0,NMT 246 NMT 354 NMT 361,-
+NMT 363,Clinical Nuclear Medicine (2),1,1,1,NMT 353,-
+NMT 364,Advanced Clinical Practice in Nuclear Medicine (1),2,1,1,NMT 245 NMT 351,-
+
+NMT-L7
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+NMT 471,Nuclear Medicine Methodology (3),3,0,0,NMT 361,-
+NMT 472,Nuclear Medicine Research Methods,3,0,0,BIOS 101 NMT 361 NMT 362,-
+NMT 473,Clinical Nuclear Medicine (3),1,1,1,NMT 363,-
+NMT 474,Advanced Clinical Practice in Nuclear Medicine (2),2,1,1,NMT 364,-
+
+NMT-L8
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+NMT 481,Current issues for Nuclear Medicine Professions,3,0,0,NMT 471 NMT 473,-
+NMT 482,Independent Studies,3,0,0,NMT 472,-
+NMT 483,Nuclear Medicine Technology Seminar,3,0,0,NMT 471 NMT 473,-
+NMT 484,Advanced Clinical Practice in Nuclear Medicine (3),1,1,2,NMT 474,-
+
+RTS-L1
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BIOS 101,Biostatistics,2,0,0,-,-
+COMM 101,Communication Skills,1,0,0,-,-
+ORI 000,Orientation,0,0,0,-,-
+ISLM 105,Medical Jurisprudence,2,0,0,-,-
+COMP 101,Computer for Health Sciences,1,1,0,-,-
+ARAB 101,Arabic Language,2,0,0,-,-
+ENGL 101,English Language (1),4,4,0,-,-
+
+RTS-L2
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BIOL 101,Biology,2,1,0,-,-
+ETH 101,Ethics in Health Care,1,0,0,-,-
+PHYS 101,General Physics,2,1,0,-,-
+CHEM 101,Introduction to Chemistry,2,1,0,-,-
+ENGL 102,English Language (2),2,2,0,-,-
+ENGL 105,Medical Terminology,3,0,0,-,-
+
+RTS-L3
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+RTS 000,Basic Life Support,0,0,0,-,RTS 232
+RTS 231,Introduction to Respiratory Therapy,3,0,0,ENG-102 ENG-105,-
+RTS 232,Cardiopulmonary Resuscitation & First Aid,3,0,0,ENG-102 ENG-105,RTS-000
+ISLM 106,Family in Islam,2,0,0,-,-
+BMS 231,"Anatomy, Embryology & Histology",2,2,0,BIOL-101 ENGL-105,-
+BMS 232,Physiology,2,1,0,BIOL-101 ENGL-105 PHYS-101,-
+BMS 233,Biochemistry,2,1,0,-,-
+ARAB 103,Writing in Arabic Language,2,0,0,ARAB-101,-
+
+RTS-L4
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+RTS 241,Anatomy of Respiratory System,3,0,0,BMS-231 RTS-231 RTS-232,RTS-242
+RTS 242,Physiology of Respiratory System,3,0,0,BMS-232 RTS-231 RTS-232,RTS-241
+RTS 243,Respiratory Pathophysiology(1),3,0,0,BMS-23 RTS-231 RTS-232,-
+RTS 244,Fundamentals of Respiratory Therapy(1),3,1,0,RTS-231 RTS-232,-
+BMS 241,Microbiology,2,0,0,BMS-231 BMS-232,-
+BMS 242,Pharmacology,2,0,0,BMS-232 BMS-233,-
+
+RTS-L5
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+RTS 351,Respiratory Pathophysiology(2),4,0,0,RTS-243,-
+RTS 352,Fundamentals of Respiratory Therapy(2),4,1,0,RTS 244,-
+RTS 353,Patient Assessment,2,1,0,COMM-101 ETH-101 RTS-241 RTS-242,-
+RTS 354,Cardiopulmonary Diagnostics & Monitoring,3,0,0,RTS-241 RTS-242,-
+ISLM 107,Economic System in Islam,2,0,0,-,-
+
+RTS-L6
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+RTS 361,Respiratory Pharmacology,2,0,0,RTS-352,-
+RTS 362,Arterial Blood Gases,2,0,0,RTS-353,-
+RTS 363,Mechanical Ventilation,3,1,0,RTS-352,-
+RTS 364,Lung Expansion / Bronchial Hygiene Therapy,0,0,0,RTS-352,-
+RTS 365,Clinical Respiratory Therapy / Practice(1),0,0,3,RTS-000 RTS-352 RTS-353 RTS-354,-
+ISLM 108,Human Rights,2,0,0,-,-
+
+RTS-L7
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+RTS 471,Psychological Rehabilitation Science,2,0,0,RTS-363,-
+RTS 472,Adult Pathophysiology / Geriatrics and Trauma Care,4,0,0,RTS-351 RTS-363,-
+RTS 473,"Neonatal, Pediatric Respiratory Therapy",2,1,0,RTS 363,-
+RTS 474,Advanced Pulmonary Function Testing,1,1,0,RTS-362,-
+RTS 475,Research Methodology,2,0,0,BIOS-101 RTS-362 RTS-363,-
+RTS 476,Clinical Respiratory Therapy / Practice(2),0,0,3,RTS-363 RTS-365,-
+
+RTS-L8
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+RTS 481,Independent Study,2,0,0,RTS-475,-
+RTS 482,Management of Critically Ill Patients,3,0,0,RTS-476,-
+RTS 483,Pulmonary Rehabilitation,3,0,0,RTS-365 RTS-474,-
+RTS 484,Radiological Images,3,0,0,RTS-476,-
+RTS 485,Clinical Respiratory Therapy / Practice(3),0,0,3,RTS-473 RTS-476,-
+
+Biomedical Technology (BMT)​
+BMT-L1
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BIOS 101,Biostatistics,2,0,0,-,-
+COMM 101,Communication Skills,1,0,0,-,-
+ORI 000,Orientation,0,0,0,-,-
+ISLM 105,Medical Jurisprudence,2,0,0,-,-
+COMP 101,Computer for Health Sciences,1,1,0,-,-
+ARAB 101,Arabic Language,2,0,0,-,-
+ENGL 101,English Language (1),4,4,0,-,-
+
+BMT-L2
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BIOL 101,Biology,2,1,0,-,-
+ETH 101,Ethics in Health Care,1,0,0,-,-
+PHYS 101,General Physics,2,1,0,-,-
+CHEM 101,Introduction to Chemistry,2,1,0,-,-
+ENGL 102,English Language (2),2,2,0,-,-
+ENGL 105,Medical Terminology,3,0,0,-,-
+
+BMT-L3
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BMT 231,Introduction To Biomedical Technology,3,0,0,BIOL 101 ENGL 102 COMP 101,-
+BMT 232,Introduction To The Materials Science Of Biomaterials,3,0,0,CHEM 101 ENGL 102,-
+MATH 231,General Mathematics,2,0,0,BIOS 101,-
+BMS 231,"Anatomy, Embryology & Histology",2,2,0,BIOL 101 ENGL 105,-
+BMS 232,Physiology,2,1,0,-,-
+BMS 234,Medical Ethics,2,0,0,-,-
+
+BMT-L4
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BMT 242,Biomedical Electronics,3,1,0,BMT 231,-
+BMT 243,Biomedical Technology Design And Manufacturing(I),4,1,0,PHYS 101 MATH 231,-
+BMT 244,Human Physiology For Engineers(I),3,0,0,BMS 231 BMS 232,-
+BMT 245,Polymeric Biomaterials Technology,2,1,0,BMT 232,-
+MATH 241,Applied Mathematics,2,0,0,MATH 231,-
+
+BMT-L5
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BMT 351,Biomedical Measurements,1,1,0,BMT 242,-
+BMT 352,Analytical And Experimental Methods For Biomedical Engineerings,2,1,0,BMT 242 MATH 241,-
+BMT 353,Biomedical Technology Design And Manufacturing(II),2,1,0,BMT 243,-
+BMT 355,Fundamentals Of Biomedical Instrumentation,3,0,0,BMT 242,-
+ISLM 106,Family in Islam,2,0,0,-,-
+ARAB 103,Writing In Arabic Language,2,0,0,ARAB 101,-
+
+BMT-L6
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BMT 361,Analog And Digital Circuits Laboratory,2,1,0,BMT 242 BMT 351,-
+BMT 362,Bioelectricity,3,0,0,BMT 244 BMT 355,-
+BMT 363,Biomechanics,2,1,0,BMT 352,-
+BMT 364,Biomedical Signal Processing,2,1,0,BMT 351,-
+BMT 365,Biomedical Technology Senior Design,2,0,0,BMT 353,-
+BMT 366,Human Physiology For Engineers(II),2,1,0,BMT 244,-
+ISLM 107,Economic System in Islam,2,0,0,-,-
+
+BMT-L7
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BMT 471,Linear Systems In Biomedical Technology,2,1,0,BMT 364 BMT 361,-
+BMT 472,Biomedical Microcontroller Applications,2,2,0,BMT 361,-
+BMT 473,Tissue Technology,2,0,0,BMT 363 BMT 245,-
+BMT 474,Medical Instrumentation,2,1,0,BMT 361 BMT 355,-
+BMT 475,Research In Biomedical Technology,3,0,0,BMT 365,-
+BMT 476,Medical Imaging(I),2,1,0,BMT 366,-
+
+BMT-L8
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BMT 481,Special Topics In Biomedical Technology,2,1,0,BMT 474,-
+BMT 482,Cardiovascular Biomechanics,2,1,0,BMT 363 BMT 366 BMT 474,-
+BMT 483,Advanced Biomedical Signal Processing,2,1,0,BMT 471,-
+BMT 484,Medical Device Design,3,0,0,BMT 475,-
+BMT 485,Medical Imaging(II),0,0,2,BMT 476,-
+ISLM 108,Human Rights,2,0,0,-,-
+
+Clinical Laboratory Sciences (CLS)​
+CLS-L1
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BIOS 101,Biostatistics,2,0,0,-,-
+COMM 101,Communication Skills,1,0,0,-,-
+ORI 000,Orientation,0,0,0,-,-
+ISLM 105,Medical Jurisprudence,2,0,0,-,-
+COMP 101,Computer for Health Sciences,1,1,0,-,-
+ARAB 101,Arabic Language,2,0,0,-,-
+ENGL 101,English Language (1),4,4,0,-,-
+
+CLS-L2
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BIOL 101,Biology,2,1,0,-,-
+ETH 101,Ethics In Health Care,1,0,0,-,-
+PHYS 101,General Physics,1,2,0,-,-
+CHEM 101,Introduction To Chemistry,2,1,0,-,-
+ENGL 102,English Language (I I),2,2,0,-,-
+ENGL 105,Medical Terminology,3,0,0,-,-
+
+CLS-L3
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+ISLM 106,Family in Islam,2,0,0,-,-
+BMS 234,Medical Ethics,2,0,0,COMM 101 ETH 101,-
+CLS 221,Anatomy And Physiology,4,0,0,ENGL 105 PHYS 101 BIOL 101,-
+CLS 222,Descriptive Histology,2,1,0,BIOL 101,-
+CLS 231,Clinical Analytical Chemistry,2,1,0,ENGL 102 BIOS 101 CHEM 101,-
+CLS 232,Organic Chemistry For Medical Students,3,0,0,-,-
+
+CLS-L4
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+ISLM 107,Economic System in Islam,2,0,0,-,-
+ARAB 103,Writing In Arabic Language,2,0,0,ARAB 101,-
+CLS 233,Basic Biochemistry,3,1,0,CLS 231 CLS 232,-
+CLS 241,General Hematology,2,1,0,-,-
+CLS 311,Basic Microbiology,3,1,0,CLS 221,-
+CLS 322,Histology Techniques,1,1,0,-,-
+
+CLS-L5
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+ISLM 108,Human Rights,2,0,0,-,-
+CLS 243,Emergency Care,1,1,0,CLS 221,-
+CLS 312,Clinical Mycology,2,1,0,-,-
+CLS 321,General Pathology,2,1,0,CLS 221 CLS 322,-
+CLS 331,Cellular Biochemistry And Metabolism(I),2,1,0,CLS 233,-
+CLS 332,Biochemical Instrumental Analysis,3,1,0,CLS 233,-
+
+CLS-L6
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+CLS 333,Cellular Biochemistry And Metabolism(II),2,1,0,-,-
+CLS 411,Clinical Bacteriology(I),2,1,0,CLS 311,-
+CLS 412,Medical Parasitology,2,1,0,CLS 311,-
+CLS 413,Virology,2,0,0,CLS 311,-
+CLS 421,Pathophysiology,2,1,0,-,-
+CLS 422,Cytopathology,1,1,0,-,-
+
+CLS-L7
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+CLS 334,Clinical Diagnostic Biochemistry,3,1,0,-,-
+CLS 414,Clinical Bacteriology(II),2,1,0,-,-
+CLS 415,Immunology,2,1,0,CLS 241,-
+CLS 431,Urinalysis & Body Fluids,2,1,0,CLS 333,-
+CLS 441,Immunohematology,2,1,0,CLS 241,-
+
+CLS-L8
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+CLS 417,Microbiology Clinical Practice,1,0,2,CLS 414,-
+CLS 432,Biochemistry Clinical Practice,1,0,2,CLS 433 CLS 334,-
+CLS 433,Clinical Enzymology,1,1,0,CLS 334 CLS 432,-
+CLS 442,Hematology Clinical Practice,1,0,2,CLS 441,-
+CLS 451,Medical Genetics And Molecular Diagnostics,3,1,0,CLS 334,-
+CLS 452,Laboratory Management,2,0,0,CLS 334,-
+
+Dental Health Care (DHC)​
+DHC-L1
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BIOS 101,Biostatistics,2,0,0,-,-
+COMM 101,Communication Skills,1,0,0,-,-
+ORI 000,Orientation,0,0,0,-,-
+ISLM 105,Medical Jurisprudence,2,0,0,-,-
+COMP 101,Computer for Health Sciences,1,1,0,-,-
+ARAB 101,Arabic Language,2,0,0,-,-
+ENGL 101,English Language (1),4,4,0,-,-
+
+DHC-L2
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BIOL 101,Biology,2,1,0,-,-
+ETH 101,Ethics in Health Care,1,0,0,-,-
+PHYS 101,General Physics,2,1,0,-,-
+CHEM 101,Introduction to Chemistry,2,1,0,-,-
+ENGL 102,English Language (I I),2,2,0,-,-
+ENGL 105,Medical Terminology,3,0,0,-,-
+
+DHC-L3
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+DNT 231,Introduction To Dental Hygiene,2,0,0,BIOL 101 ENGL 102,-
+DNT 232,Pre-Clinical Dental Hygiene,1,1,0,ETH 101 ENGL 102,-
+ISLM 106,Family in Islam,2,0,0,-,-
+BMS 231,"Anatomy, Embryology & Histology",2,2,0,BIOL 101 ENGL 105,-
+BMS 232,Physiology,2,1,0,BIOL 101 ENGL 105 PHYS 101,-
+BMS 233,Biochemistry,2,1,0,-,-
+BMS 234,Medical Ethics,2,0,0,ETH 101,-
+
+DHC-L4
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+DNT 241,Dental Materials(I),3,0,0,DNT 231,-
+DNT 242,"Dental Anatomy , Morphology And Physiology",2,1,0,DNT 231 BMS 231,-
+DNT 243,Oral Pathology,2,0,0,DNT 231,-
+DNT 244,Periodontology For Dental Hygiene,3,0,0,DNT 232 DNT 231,-
+DNT 245,Dental Hygiene Clinical I,1,0,2,DNT 232 COMM 101,-
+BMS 241,Microbiology,2,0,0,-,-
+BMS 242,Pharmacology,2,0,0,-,-
+
+DHC-L5
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+DNT 351,Preventive Dentistry(I),2,0,0,DNT 244,-
+DNT 352,Community Dentistry For Dental Hygiene(I),3,0,0,DNT 231 DNT 245,-
+DNT 353,Cariology,2,0,0,DNT 242,-
+DNT 354,Dental Assisting,2,1,0,DNT 245,-
+DNT 355,Oral Medicine For Dental Hygiene,2,0,0,DNT 243,-
+DNT 356,Dental Hygiene Clinic Ii,2,0,2,DNT 245,-
+ISLM 107,Economic System in Islam,2,0,0,-,-
+
+DHC-L6
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+DNT 361,Dental Health Education,2,0,0,DNT 352,-
+DNT 362,Community Dentistry For Dental Hygiene(II),3,0,0,DNT 352,-
+DNT 363,Preventive Dentistry(II),3,0,0,DNT 351,-
+DNT 364,Medical Emergency In Dental Practice,3,0,0,DNT 355,-
+DNT 365,Dental Hygiene Clinical(III),2,0,2,DNT 356,-
+ISLM 108,Human Rights,2,0,0,-,-
+ARAB 103,Writing In Arabic Language,2,0,0,ARAB 101,-
+
+DHC-L7
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+DNT 471,Dental Research Methods,2,0,0,DNT 361,-
+DNT 472,Oral Health Care In Inpatient,1,2,0,DNT 363,-
+DNT 473,Dental Laboratory Procedures For Dental Hygiene,2,0,0,DNT 365,-
+DNT 474,Radiology For Dental Hygiene,2,1,0,DNT 353 DNT 363,-
+DNT 475,Dental Hygiene Clinical(III),2,0,2,DNT 365,-
+DNT 476,Dental Materials(II),3,0,0,DNT 241 DNT 354 DNT 365,-
+
+DHC-L8
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+DNT 481,Dental Health Care For Prosthodontics,1,1,0,DNT 473 DNT 476,-
+DNT 482,Infection Control In Dental Offices,3,0,0,DNT 472,-
+DNT 483,Dental Hygiene Seminar,3,0,0,DNT 471,-
+DNT 484,Oral Hygiene And Young Patients,2,0,1,DNT 475,-
+DNT 485,Dental Hygiene Clinical(V),2,0,2,DNT 475,-
+
+Radiological Sciences (RAD)
+RAD-L1
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BIOS 101,Biostatistics,2,0,0,-,-
+COMM 101,Communication Skills,1,0,0,-,-
+ORI 000,Orientation,0,0,0,-,-
+ISLM 105,Medical Jurisprudence,2,0,0,-,-
+COMP 101,Computer for Health Sciences,1,1,0,-,-
+ARAB 101,Arabic Language,2,0,0,-,-
+ENGL 101,English Language (1),4,4,0,-,-
+
+RAD-L2
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BIOL 101,Biology,2,1,0,-,-
+ETH 101,Ethics in Health Care,1,0,0,-,-
+PHYS 101,General Physics,2,1,0,-,-
+CHEM 101,Introduction to Chemistry,2,1,0,-,-
+ENGL 102,English Language (2),2,2,0,-,-
+ENGL 105,Medical Terminology,3,0,0,-,-
+
+RAD-L3
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+RAD 231,X-Ray Physics & Equipment,3,0,0,ENGL 102 PHYS 101,-
+RAD 232,Radiobiology & Radiation Protection,3,0,0,BIOL 101 ENGL 102,-
+ISLM 106,Family in Islam,2,0,0,-,-
+BMS 231,"Anatomy, Embryology & Histology",2,2,0,BIOL 101 ENGL 105,-
+BMS 232,Physiology,2,1,0,BIOS 101 ENGL 105,-
+BMS 234,Medical Ethics,2,0,0,-,-
+ARAB 103,Writing in Arabic Language,2,0,0,ARAB 101,-
+
+RAD-L4
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+RAD 241,Computers & Imaging Modalities,2,0,0,COMP 101 RAD 231,RAD 243 RAD 244
+RAD 242,Radiographic Anatomy,3,0,0,BMS 231,-
+RAD 243,Nuclear Medicine Physics & Equipment,3,0,0,RAD 231,RAD 241
+RAD 244,"Image Recording, Quality Assurance & Pacs",2,0,0,RAD 231,RAD 241
+RAD 245,Radiographic Technique (1),1,1,0,RAD 231,RAD 246
+RAD 246,Radiographic Technique (2),3,1,0,RAD 231,RAD 245
+ISLM 107,Economic System in Islam,2,0,0,-,-
+
+RAD-L5
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+RAD 351,Sectional Anatomy,2,1,0,RAD 241 RAD 242,-
+RAD 352,Ultrasound Physics & Equipment,2,1,0,RAD 242,-
+RAD 353,Radiography Technique (3),2,1,0,RAD 246,-
+RAD 354,Radiography Clinical Practice (1),0,0,3,RAD 246,-
+RAD 355,Nuclear Medicine Technique (1),3,0,0,RAD 243,-
+ISLM 108,Human Rights,2,0,0,-,-
+
+RAD-L6
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+RAD 361,Radiographic Pathology,2,0,0,RAD 242 RAD 351,-
+RAD 362,Radiography Technique (4),2,1,0,RAD 353 RAD 354,RAD 363
+RAD 363,Radiography Clinical Practice (2),0,0,3,RAD 354,RAD 362
+RAD 364,Nuclear Medicine Technique (2),3,0,0,RAD 355,-
+RAD 365,Computerized Tomography (1),2,1,0,RAD 351,-
+RAD 366,Ultrasonography (1),2,1,0,RAD 352,-
+
+RAD-L7
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+RAD 471,Radiography Technique (5),2,1,0,RAD 362 RAD 363,RAD 472
+RAD 472,Radiography Clinical Practice (3),0,0,3,RAD 363,RAD 471
+RAD 473,Computerized Tomography (2),2,1,0,RAD 365,-
+RAD 474,Magnetic Resonance Imaging (1),3,0,0,RAD 364,-
+RAD 475,Student Project,1,1,0,BIOS 101 RAD 363,-
+RAD 476,Radiology Administration,2,0,0,RAD 362,-
+
+RAD-L8
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+RAD 481,Radiotherapy Physics & Equipment,2,1,0,RAD 364,-
+RAD 482,Radiographic Technique (4),2,1,0,RAD 471,RAD 383
+RAD 483,Radiography Clinical Practice (4),0,0,3,RAD 472,RAD 482
+RAD 484,Ultrasonography (2),0,1,2,RAD 366,-
+RAD 485,Magnetic Resonance Imaging (2),0,1,2,RAD 474,-
+
+Emergency Medical Services & Critical Care (EMSCC)​
+EMSCC-L1
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BIOS 101,Biostatistics,2,0,0,-,-
+COMM 101,Communication Skills,1,0,0,-,-
+ORI 000,Orientation,0,0,0,-,-
+ISLM 105,Medical Jurisprudence,2,0,0,-,-
+COMP 101,Computer for Health Sciences,1,1,0,-,-
+ARAB 101,Arabic Language,2,0,0,-,-
+ENGL 101,English Language (1),4,4,0,-,-
+
+EMSCC-L2
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BIOL 101,Biology,2,1,0,-,-
+ETH 101,Ethics in Health Care,1,0,0,-,-
+PHYS 101,General Physics,2,1,0,-,-
+CHEM 101,Introduction to Chemistry,2,1,0,-,-
+ENGL 102,English Language (2),2,2,0,-,-
+ENGL 105,Medical Terminology,3,0,0,-,-
+
+EMSCC-L3
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+ISLM 106,Family in Islam,2,0,0,-,-
+BMS 231,"Anatomy, Embryology & Histology",2,2,0,BIOL 101 ENGL 105,-
+BMS 232,Physiology,2,1,0,BIOL 101 ENGL 105 PHYS 101,-
+BMS 233,Biochemistry,2,1,0,-,-
+EMS 000,Basic Life Support,0,0,0,-,EMS 231
+EMS 231,Foundation of Emergency Medical Care,2,1,0,ENGL 102 COMP 101,EMS 232 EMS 000
+EMS 232,Patient Assessment and Care I,2,1,0,ENGL 102 COMM 101 ETH 101,EMS 231 EMS 000
+
+EMSCC-L4
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+BMS 241,Microbiology,2,0,0,-,-
+BMS 242,Pharmacology,2,0,0,-,-
+BMS 243,Pathophysiology,3,0,0,-,-
+BMS 244,Epidemiology,3,0,0,BMS 232 BIOS 101,-
+EMS 245,Introduction to Paramedic Practice,3,0,0,BMS 232 BMS 231 EMS 231,-
+EMS 246,Patient Assessment and Care II (Theory),3,0,0,EMS 232 BMS 231 BMS 232,EMS 247
+EMS 247,Patient Assessment and CareII ( Practice),0,3,0,EMS 232,EMS 246
+
+EMSCC-L5
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+ISLM 107,Economic System in Islam,2,0,0,-,-
+EMS 351,Patient Assessment III,2,1,0,-,-
+EMS 352,Advanced Airway Management,3,1,0,EMS 246 BMS 242 BMS 243,-
+EMS 353,Pharmacology II,2,1,0,-,-
+EMS 354,Emergency Clinical Practice,0,0,3,EMS 247 EMS 000,-
+EMS 355,Contemporary Approaches to Lifestyle Management,3,0,0,EMS 245,-
+
+EMSCC-L6
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+ISLM 108,Human Rights,2,0,0,-,-
+EMS 361,Medical Emergency And Intensive Care Informatics,2,0,0,EMS 355,-
+EMS 362,Medical Emergencies I,3,1,0,-,-
+EMS 363,Trauma Emergencies I,3,1,0,-,-
+EMS 364,Emergency Cardiology,2,1,0,-,-
+ARAB 103,Writing In Arabic Language,2,0,0,ARAB 101,-
+
+EMSCC-L7
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+EMS 471,Emergency Medical Operations,2,0,0,EMS 363,-
+EMS 472,Current Issues in Medical Emergency and Intensive Care,2,0,0,EMS 362,-
+EMS 473,Special Considerations in Emergency Care I,2,1,0,-,-
+EMS 474,Medical Emergencies II,2,1,0,-,-
+EMS 475,Trauma Emergencies II,2,1,0,-,-
+EMS 476,Emergency Clinical Practice II,0,0,3,-,-
+
+EMSCC-L8
+Course Code,Course Name,Theory,Practical,Clinical,Pre-requisites,Co-requisites
+EMS 481,Special Considerations in Emergency Care II,2,1,0,-,-
+EMS 482,Concepts of Critical Care,3,0,0,EMS 364 EMS 474 EMS 475,-
+EMS 483,Advanced Concepts in Emergency Care,2,1,0,EMS 364 EMS 474 EMS 475,-
+EMS 484,Management of Emergency Medical Services,3,0,0,MS 361 BMS 244 EMS 471,-
+EMS 485,Emergency Medical Care Practice,0,3,0,EMS 476,-
